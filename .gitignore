@@ -1,0 +1,20 @@
+# temporários e de sistema
+.DS_Store
+Thumbs.db
+*~
+*.tmp
+*.swp
+
+# saídas de LaTeX (caso use .tex)
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# ambientes / dependências
+.venv/
+__pycache__/
+.ipynb_checkpoints/
