@@ -1,6 +1,9 @@
 # material-fonte do curso (direitos autorais — uso pessoal, NÃO versionar)
 material/
 
+# notas privadas (uso pessoal — não versionar)
+notas/_private/
+
 # temporários e de sistema
 .DS_Store
 Thumbs.db
