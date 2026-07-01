@@ -43,7 +43,9 @@ graph TD
         ATO2["Ato 2 · Juízo"]
         QUAD["✅ Quadrado das Oposições"]
         ATO3["⏳ Ato 3 · Silogismo"]
+        KREEFT["✅ Socratic Logic · Kreeft"]
         ATO1 --> ARQ --> ATO2 --> QUAD --> ATO3
+        ARQ -. "a lógica como espelho" .- KREEFT
     end
 
     RDS --> BIB
@@ -57,7 +59,7 @@ graph TD
     classDef done fill:#2f9e44,stroke:#8ce99a,color:#ffffff;
     classDef todo fill:#e8590c,stroke:#ffc078,color:#ffffff;
     classDef hub fill:#3b5bdb,stroke:#91a7ff,color:#ffffff;
-    class PASOMA,PATERMO,ARQ,QUAD done;
+    class PASOMA,PATERMO,ARQ,QUAD,KREEFT done;
     class PG,LOG,ATO3 todo;
     class RAIZ,MAPA hub;
 
@@ -71,6 +73,7 @@ graph TD
 [Quadrado das Oposições](resumos/quadrado-das-oposicoes.md) ·
 [Soma da PA (Gauss)](resumos/soma-da-pa-gauss.md) ·
 [Termo geral da PA](resumos/termo-geral-da-pa.md) ·
+[A lógica como espelho (Socratic Logic)](notas/socratic-logic-a-logica-como-espelho.md) ·
 [Mapa-mestre do curso](notas/mapa-mestre-do-curso.md) ·
 [Biblioteca matemática](notas/biblioteca-matematica-e-o-curso.md)
 
