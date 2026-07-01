@@ -30,5 +30,6 @@ sem misturar com outros projetos.
 
 ---
 
-*Estudo pessoal. Sem fins comerciais.
-Os materiais de base utilizados são créditos do curso Raízes do Saber do Prof Dr. Deividi Pansera*
+*Estudo pessoal. Sem fins comerciais.*
+
+*Os materiais de base utilizados são créditos do curso Raízes do Saber, do Prof. Dr. Deividi Pansera.*
