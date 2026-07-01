@@ -1,10 +1,13 @@
-# RDS — Raízes do Saber
+# RDS & ABP — Cadernos de Estudo
 
-Repositório pessoal de estudos do curso de **Matemática "Raízes do Saber"**,
-ministrado pelo **Prof. Dr. Deividi Pansera**.
+Caderno pessoal e versionado de estudos de dois cursos do **Prof. Dr. Deividi Pansera**:
 
-Objetivo: organizar aulas, exercícios, anotações e resumos de forma versionada,
-acompanhando o progresso ao longo do curso.
+- **Raízes do Saber** — Princípios de Matemática (aritmética, álgebra, progressões, logaritmos);
+- **A Arte do Bem Pensar** — lógica clássica (os três atos da mente).
+
+Objetivo: organizar aulas, exercícios, anotações e resumos de forma versionada, registrando o
+raciocínio por trás de cada tópico — o *porquê* antes do *como* — e acompanhando o progresso
+ao longo dos cursos.
 
 ## Mapa do conhecimento
 
@@ -12,6 +15,7 @@ Grafo vivo de tudo o que já construímos no caderno. Atualizado a cada avanço.
 **Legenda:** ✅ concluído · ⏳ próximo passo.
 
 ```mermaid
+%%{init: {'theme':'dark'}}%%
 graph TD
     TRAD["Tradição clássica<br/>Sócrates · Platão · Aristóteles · Euclides"] --> RAIZ
     RAIZ(["🎓 Cursos do Prof. Dr. Deividi Pansera"]) --> RDS
@@ -67,12 +71,6 @@ listas/       # listas de exercícios / problem sets
 notas/        # anotações livres, dúvidas, insights
 resumos/      # resumos e fórmulas por tópico
 ```
-
-## Como usar (com o Claude Code)
-
-Este é um projeto **separado**. Para trabalhar nele com o Claude, abra o Claude
-**dentro desta pasta** (`RDS/`) — assim ele tem o próprio contexto e memória,
-sem misturar com outros projetos.
 
 ## Convenções sugeridas
 
