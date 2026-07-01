@@ -15,7 +15,7 @@ Grafo vivo de tudo o que já construímos no caderno. Atualizado a cada avanço.
 **Legenda:** ✅ concluído · ⏳ próximo passo.
 
 ```mermaid
-%%{init: {'theme':'dark','themeVariables':{'fontSize':'20px','fontFamily':'sans-serif'}}}%%
+%%{init: {'themeVariables':{'fontSize':'20px','fontFamily':'sans-serif'}}}%%
 graph TD
     TRAD["Tradição clássica"] --> RAIZ
     RAIZ(["🎓 Cursos<br/>Prof. Deividi Pansera"]) --> RDS
@@ -54,9 +54,9 @@ graph TD
         ROSS["Ross · Probabilidade"]
     end
 
-    classDef done fill:#2f9e44,stroke:#8ce99a,color:#ffffff;
-    classDef todo fill:#e8590c,stroke:#ffc078,color:#ffffff;
-    classDef hub fill:#3b5bdb,stroke:#91a7ff,color:#ffffff;
+    classDef done fill:transparent,stroke:#2f9e44,stroke-width:3px;
+    classDef todo fill:transparent,stroke:#e8590c,stroke-width:3px;
+    classDef hub fill:transparent,stroke:#3b5bdb,stroke-width:3px;
     class PASOMA,PATERMO,ARQ,QUAD done;
     class PG,LOG,ATO3 todo;
     class RAIZ,MAPA hub;
