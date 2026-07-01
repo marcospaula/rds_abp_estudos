@@ -15,52 +15,60 @@ Grafo vivo de tudo o que já construímos no caderno. Atualizado a cada avanço.
 **Legenda:** ✅ concluído · ⏳ próximo passo.
 
 ```mermaid
-%%{init: {'theme':'dark'}}%%
+%%{init: {'theme':'dark','themeVariables':{'fontSize':'20px','fontFamily':'sans-serif'}}}%%
 graph TD
-    TRAD["Tradição clássica<br/>Sócrates · Platão · Aristóteles · Euclides"] --> RAIZ
-    RAIZ(["🎓 Cursos do Prof. Dr. Deividi Pansera"]) --> RDS
+    TRAD["Tradição clássica"] --> RAIZ
+    RAIZ(["🎓 Cursos<br/>Prof. Deividi Pansera"]) --> RDS
     RAIZ --> ABP
-    RAIZ --> MAPA["🗺️ Mapa-mestre do curso<br/>notas/mapa-mestre-do-curso.md"]
+    RAIZ --> MAPA["🗺️ Mapa-mestre"]
 
-    subgraph RDS ["📐 RDS — Matemática (Raízes do Saber)"]
-        FUND["Fundamentos Aritméticos<br/>ℤ → ℚ → ℝ"]
+    subgraph RDS ["📐 RDS · Matemática"]
+        FUND["Fundamentos<br/>ℤ → ℚ → ℝ"]
         PA["Progressão Aritmética"]
-        PASOMA["✅ Soma da PA (Gauss)<br/>resumos/soma-da-pa-gauss.md"]
-        PATERMO["✅ Termo geral da PA<br/>resumos/termo-geral-da-pa.md"]
-        PG["⏳ Progressão Geométrica"]
+        PASOMA["✅ Soma da PA · Gauss"]
+        PATERMO["✅ Termo geral"]
+        PG["⏳ Prog. Geométrica"]
         LOG["⏳ Logaritmos"]
         FUND --> PA
         PA --> PASOMA
         PA --> PATERMO
         PA --> PG
         PG --> LOG
-        PASOMA -. "fencepost: +1 / −1" .- PATERMO
+        PASOMA -. "fencepost +1/−1" .- PATERMO
     end
 
-    subgraph ABP ["🦉 ABP — Lógica Clássica (A Arte do Bem Pensar)"]
-        ATO1["Ato 1 · Simples Apreensão"]
-        ARQ["✅ Arquitetura da lógica clássica<br/>resumos/arquitetura-da-logica-classica.md"]
+    subgraph ABP ["🦉 ABP · Lógica Clássica"]
+        ATO1["Ato 1 · Apreensão"]
+        ARQ["✅ Arquitetura da lógica"]
         ATO2["Ato 2 · Juízo"]
-        QUAD["✅ Quadrado das Oposições<br/>resumos/quadrado-das-oposicoes.md"]
-        ATO3["⏳ Ato 3 · Raciocínio (Silogismo)"]
-        ATO1 --> ARQ
-        ARQ --> ATO2
-        ATO2 --> QUAD
-        QUAD --> ATO3
+        QUAD["✅ Quadrado das Oposições"]
+        ATO3["⏳ Ato 3 · Silogismo"]
+        ATO1 --> ARQ --> ATO2 --> QUAD --> ATO3
     end
 
     RDS --> BIB
     ABP --> BIB
-    subgraph BIB ["📚 Biblioteca — aplicação (a copa)"]
-        BIBNOTA["notas/biblioteca-matematica-e-o-curso.md"]
+    subgraph BIB ["📚 Biblioteca · aplicação"]
         APOSTOL["Apostol · Cálculo"]
         AXLER["Axler · Álgebra Linear"]
         ROSS["Ross · Probabilidade"]
-        BIBNOTA --> APOSTOL
-        BIBNOTA --> AXLER
-        BIBNOTA --> ROSS
     end
+
+    classDef done fill:#2f9e44,stroke:#8ce99a,color:#ffffff;
+    classDef todo fill:#e8590c,stroke:#ffc078,color:#ffffff;
+    classDef hub fill:#3b5bdb,stroke:#91a7ff,color:#ffffff;
+    class PASOMA,PATERMO,ARQ,QUAD done;
+    class PG,LOG,ATO3 todo;
+    class RAIZ,MAPA hub;
 ```
+
+**Documentos:**
+[Arquitetura da lógica clássica](resumos/arquitetura-da-logica-classica.md) ·
+[Quadrado das Oposições](resumos/quadrado-das-oposicoes.md) ·
+[Soma da PA (Gauss)](resumos/soma-da-pa-gauss.md) ·
+[Termo geral da PA](resumos/termo-geral-da-pa.md) ·
+[Mapa-mestre do curso](notas/mapa-mestre-do-curso.md) ·
+[Biblioteca matemática](notas/biblioteca-matematica-e-o-curso.md)
 
 ## Estrutura
 
