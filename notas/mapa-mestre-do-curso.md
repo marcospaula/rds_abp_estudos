@@ -87,7 +87,7 @@ depois julga, só então raciocina.
 |---|---|---|---|---|
 | **1 · Simples Apreensão** | Mód. 1 | A1–3 / L1–3 | conceito, termo, signos, categorias, predicáveis, definição, Árvore de Porfírio | [arquitetura-da-logica-classica](../resumos/arquitetura-da-logica-classica.md) |
 | **2 · Juízo** | Mód. 2 | A01–02 / L4–5 | proposição, cópula, código AEIO, Quadrado das Oposições, distribuição | [quadrado-das-oposicoes](../resumos/quadrado-das-oposicoes.md) |
-| **3 · Raciocínio** | Mód. 3 | A01–04 / L6–9 | inferência, silogismo e suas regras de validade | *(a escrever)* |
+| **3 · Raciocínio** | Mód. 3 | A01–04 / L6–9 | inferência, silogismo e suas regras de validade | [verdade-e-validade](../resumos/verdade-e-validade.md) *(A01 · fundação)* |
 | **Aplicação** | Mód. 4 | A01 / L10 | argumentação / falácias | *(a escrever)* |
 
 > ⚠️ *Atos 1 e 2 estão confirmados pelo material (lousas e PDFs). A leitura dos Módulos 3 e 4
@@ -113,6 +113,7 @@ Correlação detalhada: [biblioteca-matematica-e-o-curso](biblioteca-matematica-
 |---|---|
 | [resumos/arquitetura-da-logica-classica.md](../resumos/arquitetura-da-logica-classica.md) | Atos 1 e 2 da mente — fundação da lógica |
 | [resumos/quadrado-das-oposicoes.md](../resumos/quadrado-das-oposicoes.md) | As relações de verdade entre A, E, I, O |
+| [resumos/verdade-e-validade.md](../resumos/verdade-e-validade.md) | Verdade × validade — a pedra fundamental do Ato 3 |
 | [notas/biblioteca-matematica-e-o-curso.md](biblioteca-matematica-e-o-curso.md) | Correlação do catálogo `mathbooks` com o curso |
 | [notas/mapa-mestre-do-curso.md](mapa-mestre-do-curso.md) | **(este)** mapa geral de tudo |
 
@@ -132,5 +133,6 @@ Correlação detalhada: [biblioteca-matematica-e-o-curso](biblioteca-matematica-
 
 ---
 
-*Lacunas conhecidas, na ordem natural de preenchimento: resumo do **Silogismo (Ato 3)** e do
-**Módulo 4**; aprofundamentos dos temas do Tronco I (demonstração das fórmulas de PA/PG/Log).*
+*Lacunas conhecidas, na ordem natural de preenchimento: o **silogismo em si** (3 termos, 3
+proposições — A02/L7), suas **figuras e modos** (A03/L8) e **regras de validade** (A04/L9); o
+**Módulo 4** (falácias); aprofundamentos do Tronco I (demonstração das fórmulas de PA/PG/Log).*

@@ -43,9 +43,12 @@ graph TD
         ATO2["Ato 2 · Juízo"]
         QUAD["✅ Quadrado das Oposições"]
         ATO3["⏳ Ato 3 · Silogismo"]
+        VXV["✅ Verdade × Validade"]
         KREEFT["✅ Socratic Logic · Kreeft"]
         ATO1 --> ARQ --> ATO2 --> QUAD --> ATO3
+        ATO3 --> VXV
         ARQ -. "a lógica como espelho" .- KREEFT
+        VXV -. "validade ≠ verdade" .- KREEFT
     end
 
     RDS --> BIB
@@ -59,7 +62,7 @@ graph TD
     classDef done fill:#2f9e44,stroke:#8ce99a,color:#ffffff;
     classDef todo fill:#e8590c,stroke:#ffc078,color:#ffffff;
     classDef hub fill:#3b5bdb,stroke:#91a7ff,color:#ffffff;
-    class PASOMA,PATERMO,ARQ,QUAD,KREEFT done;
+    class PASOMA,PATERMO,ARQ,QUAD,KREEFT,VXV done;
     class PG,LOG,ATO3 todo;
     class RAIZ,MAPA hub;
 
@@ -71,6 +74,7 @@ graph TD
 **Documentos:**
 [Arquitetura da lógica clássica](resumos/arquitetura-da-logica-classica.md) ·
 [Quadrado das Oposições](resumos/quadrado-das-oposicoes.md) ·
+[Verdade × Validade](resumos/verdade-e-validade.md) ·
 [Soma da PA (Gauss)](resumos/soma-da-pa-gauss.md) ·
 [Termo geral da PA](resumos/termo-geral-da-pa.md) ·
 [A lógica como espelho (Socratic Logic)](notas/socratic-logic-a-logica-como-espelho.md) ·
