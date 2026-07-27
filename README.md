@@ -1,9 +1,10 @@
 # RDS & ABP — Cadernos de Estudo
 
-Caderno pessoal e versionado de estudos de dois cursos do **Prof. Dr. Deividi Pansera**:
+Caderno pessoal e versionado de estudos dos cursos do **Prof. Dr. Deividi Pansera**:
 
 - **Raízes do Saber** — Princípios de Matemática (aritmética, álgebra, progressões, logaritmos);
-- **A Arte do Bem Pensar** — lógica clássica (os três atos da mente).
+- **A Arte do Bem Pensar** — lógica clássica (os três atos da mente);
+- **A mente euclidiana** — método axiomático-dedutivo e pensamento rigoroso (12 aulas + 5 bônus).
 
 Objetivo: organizar aulas, exercícios, anotações e resumos de forma versionada, registrando o
 raciocínio por trás de cada tópico — o *porquê* antes do *como* — e acompanhando o progresso
@@ -20,6 +21,7 @@ graph TD
     TRAD["Tradição clássica"] --> RAIZ
     RAIZ(["🎓 Cursos<br/>Prof. Deividi Pansera"]) --> RDS
     RAIZ --> ABP
+    RAIZ --> AME
     RAIZ --> MAPA["🗺️ Mapa-mestre"]
 
     subgraph RDS ["📐 RDS · Matemática"]
@@ -51,8 +53,18 @@ graph TD
         VXV -. "validade ≠ verdade" .- KREEFT
     end
 
+    subgraph AME ["📏 AME · A mente euclidiana"]
+        RIGOR["✅ Euclides e a invenção do rigor"]
+        SISAX["Sistema axiomático<br/>primitivos · axiomas · teoremas"]
+        DEF["⏳ Definições, postulados<br/>e noções comuns"]
+        DEM["⏳ O que é uma demonstração"]
+        RIGOR --> SISAX --> DEF --> DEM
+    end
+
     RDS --> BIB
     ABP --> BIB
+    AME --> BIB
+    VXV -. "fundamentos à vista" .- RIGOR
     subgraph BIB ["📚 Biblioteca · aplicação"]
         APOSTOL["Apostol · Cálculo"]
         AXLER["Axler · Álgebra Linear"]
@@ -62,12 +74,13 @@ graph TD
     classDef done fill:#2f9e44,stroke:#8ce99a,color:#ffffff;
     classDef todo fill:#e8590c,stroke:#ffc078,color:#ffffff;
     classDef hub fill:#3b5bdb,stroke:#91a7ff,color:#ffffff;
-    class PASOMA,PATERMO,ARQ,QUAD,KREEFT,VXV done;
-    class PG,LOG,ATO3 todo;
+    class PASOMA,PATERMO,ARQ,QUAD,KREEFT,VXV,RIGOR done;
+    class PG,LOG,ATO3,DEF,DEM todo;
     class RAIZ,MAPA hub;
 
     style RDS fill:transparent,stroke:#9aa0a6,stroke-width:1px
     style ABP fill:transparent,stroke:#9aa0a6,stroke-width:1px
+    style AME fill:transparent,stroke:#9aa0a6,stroke-width:1px
     style BIB fill:transparent,stroke:#9aa0a6,stroke-width:1px
 ```
 
@@ -75,6 +88,7 @@ graph TD
 [Arquitetura da lógica clássica](resumos/arquitetura-da-logica-classica.md) ·
 [Quadrado das Oposições](resumos/quadrado-das-oposicoes.md) ·
 [Verdade × Validade](resumos/verdade-e-validade.md) ·
+[Euclides e a invenção do rigor](resumos/euclides-e-a-invencao-do-rigor.md) ·
 [Soma da PA (Gauss)](resumos/soma-da-pa-gauss.md) ·
 [Termo geral da PA](resumos/termo-geral-da-pa.md) ·
 [A lógica como espelho (Socratic Logic)](notas/socratic-logic-a-logica-como-espelho.md) ·
